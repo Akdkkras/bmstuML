@@ -25,4 +25,5 @@ plt.xlim(mean[0] - radius2 - 1, mean[0] + radius2 + 1)
 plt.ylim(mean[1] - radius2 - 1, mean[1] + radius2 + 1)
 plt.gca().set_aspect('equal')
 
+plt.tight_layout()
 plt.show()
